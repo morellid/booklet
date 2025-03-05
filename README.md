@@ -6,8 +6,8 @@ The order of the pages needs to be calculated so when pages are printed and fold
 
 The project is a python script that takes as input the number of pages in of the content, and will create a guide that illustrates how to reorganise the original A4 in portrait mode content so it will be ordered as expected when folded and put together.
 
-The script assumes that there is a cover page. 
+For example, to generate a booklet with 14 pages, run this
 
-The script as an option to have an empty page at the beginning.
+`python booklet.py 14`
 
-The script outputs a pdf where in each page is shown what should be put.
+the output will be a pdf with 16 pages (it's always a multiple of 4), that shows you how pages will be reorganised once folded.
